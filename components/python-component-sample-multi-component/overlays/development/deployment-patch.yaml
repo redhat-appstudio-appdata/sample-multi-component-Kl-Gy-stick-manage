@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: python-component-sample-multi-component
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/cqi-tenant/sample-multi-component/python-component-sample-multi-component@sha256:9fb225c30e3c61c46df64f873dc01a35bf062c566356edbfbdc74918eb862b57
+        name: my-python
+        resources: {}
+status: {}
