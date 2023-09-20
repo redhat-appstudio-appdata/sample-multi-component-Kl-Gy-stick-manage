@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: go-component-sample-multi-component
     spec:
       containers:
-      - image: go-image:latest
+      - image: quay.io/redhat-user-workloads/cqi-tenant/sample-multi-component/go-component-sample-multi-component@sha256:04e46d9561f5dc84311b1adde670047be5a63c938fbfeb5d52e158c9e3f62a10
         name: my-go
         ports:
         - containerPort: 8081
