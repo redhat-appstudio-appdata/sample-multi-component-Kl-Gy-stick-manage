@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: go-component-sample-multi-component
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/cqi-tenant/sample-multi-component/go-component-sample-multi-component@sha256:04e46d9561f5dc84311b1adde670047be5a63c938fbfeb5d52e158c9e3f62a10
+        name: my-go
+        resources: {}
+status: {}
