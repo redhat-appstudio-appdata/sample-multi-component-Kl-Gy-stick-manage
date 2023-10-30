@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/cqi-tenant/sample-multi-component/go-component-sample-multi-component@sha256:962f9d113c47b857947a6eb88cdd47dd9baf62cabf79428a90ddf2d4cf86d579
+      - image: quay.io/redhat-user-workloads/cqi-tenant/sample-multi-component/go-component-sample-multi-component@sha256:5ce68783dd4a0be0d2ee6fe90afdc00a4ea0b5eaad4b8fdb2f37cb20a185884d
         name: my-go
         resources: {}
 status: {}
