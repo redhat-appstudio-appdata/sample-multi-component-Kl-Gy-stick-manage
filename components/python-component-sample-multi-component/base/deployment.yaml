@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: python-component-sample-multi-component
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/cqi-tenant/sample-multi-component/python-component-sample-multi-component@sha256:2e80428fff0749618566c6098b53ac1ff7e7d647b3043b697e0e514953910d7e
+      - image: quay.io/redhat-user-workloads/cqi-tenant/sample-multi-component/python-component-sample-multi-component@sha256:f13d2396f47133bc96568d571b799fe108283f6859369a7761a4501837930e76
         name: my-python
         ports:
         - containerPort: 8081
