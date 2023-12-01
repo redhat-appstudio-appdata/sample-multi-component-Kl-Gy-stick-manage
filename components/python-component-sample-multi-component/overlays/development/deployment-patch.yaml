@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/cqi-tenant/sample-multi-component/python-component-sample-multi-component@sha256:1143e62e4096492815763c3a4969b30246bc1c60bbedd7dd22161fc3d12d12a3
+      - image: quay.io/redhat-user-workloads/cqi-tenant/sample-multi-component/python-component-sample-multi-component@sha256:2e80428fff0749618566c6098b53ac1ff7e7d647b3043b697e0e514953910d7e
         name: my-python
         resources: {}
 status: {}
