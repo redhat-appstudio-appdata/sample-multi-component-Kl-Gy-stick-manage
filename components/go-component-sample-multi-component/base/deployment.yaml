@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/part-of: sample-multi-component
   name: go-component-sample-multi-component
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
