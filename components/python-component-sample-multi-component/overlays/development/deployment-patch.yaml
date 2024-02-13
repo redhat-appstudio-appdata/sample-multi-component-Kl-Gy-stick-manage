@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: python-component-sample-multi-component
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
